@@ -1,9 +1,126 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-html,body{
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+ 
+     }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    margin-top:50px ;
+    margin-bottom:50px ;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+  }
+  
+  .card-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #0275ef;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .timeline-content {
+    flex: 1;
+  }
+  
+  .timeline-year {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-description {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  
+  .image-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 40%;
+    padding: 30px;
+  }
+  
+  .image-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .image-subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .image {
     width: 100%;
-    height: 100%;
-}
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
