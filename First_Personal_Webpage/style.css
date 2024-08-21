@@ -1,0 +1,75 @@
+body{
+    margin:0px;
+    padding: 0px 150px 0px 150px;
+    background-color: grey;
+  }
+  
+  #body{
+    margin:10px 0px 0px 0px;
+    padding: 40px;
+    width: 960px;
+    background-color: #e9f2ff;
+  }
+  .main-container{
+    background: rgb(0, 0, 0);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: gray 5px 5px 5px 0px;
+    display: flex;
+  }
+  
+  
+  
+  
+  .creator-image{
+    border: 3px solid #cfcfcf;
+    border-radius: 100px;
+    box-shadow: gray 0px 0px 5px 2px;
+  }
+  
+  #heading{
+    margin: 40px;
+    margin-top: -235px;
+    font-family: sans-serif;
+    color: #ce7827;
+  }
+  #heading #span{
+    font-size: 24px;
+  }
+  #heading #h1{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  #heading #p{
+    font-size: 16px;
+  }
+  #name{
+    font-size: 3rem;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family:  Arial, sans-serif;
+    font-style: italic;
+  }
+  #detail{
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  #member{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #pati{
+    width: 50px;
+    height: 275px;
+    background-color: #ce7827;
+    position: relative;
+    left: 93%;
+  /*     top: 0px; */
+  }
