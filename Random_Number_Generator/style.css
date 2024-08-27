@@ -1,0 +1,39 @@
+body {
+       
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    text-align: center;
+}
+
+#div_box{
+    background-color: rgb(254, 255, 255);
+    padding: 10px;
+    box-shadow: 20px;
+    height: 60%;
+    width: 40%;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+#div_box h1{
+margin:auto;
+vertical-align:middle;
+text-align: center;
+}
+
+
+.visible{
+    display: none;
+}
