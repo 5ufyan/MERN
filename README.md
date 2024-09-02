@@ -11,3 +11,5 @@ Created a card with Flex-Box and Grid Layout
 Created a Personal Webpage 
 
 Created a Quiz App of Arthemetic Operations using JS
+
+Created a Periodic
