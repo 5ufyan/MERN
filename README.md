@@ -12,4 +12,4 @@ Created a Personal Webpage
 
 Created a Quiz App of Arthemetic Operations using JS
 
-Created a Periodic Table only html 
+Created a Periodic Table only html and inline css
